@@ -64,6 +64,7 @@
   width: 100px;
   height: 35px; 
   border-width: 1px;
+  border-color: rgb(228, 228, 228);
   border-radius: 5px;
   margin-right: 20px;
   font-weight: 600;
@@ -175,6 +176,7 @@
 .reset-button:hover {
   background-color: rgb(198, 197, 197);
   transition-duration: 0.15s;
+  cursor: pointer;
 }
 
 .card-section3 {
@@ -234,6 +236,7 @@
 .view-details-button:hover {
   opacity: 0.9;
   transition-duration: 0.15s;
+  cursor: pointer;
 }
 
 .reviews {
@@ -260,6 +263,11 @@
   font-size: 14px;
 }
 
+.no-of-review {
+  color: rgb(174, 172, 172);
+  margin-left: 4px;
+}
+
 .rating-wrapper {
   display: flex;
   align-items: center;
@@ -282,5 +290,5 @@
   width: 5px;
   height: 12px;
   border: 4px;
-  background-color: white;
+  background-color: rgb(201, 201, 201);
 }
